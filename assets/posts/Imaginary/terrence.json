@@ -1,0 +1,206 @@
+{
+    "PROFILE_CONTAINER": {
+        "profile": {
+            "profilePhotos": {
+                "PROFILE": {
+                    "url": "https://lh3.googleusercontent.com/a-/ALV-UjXMwk_VUWGOoyeW7Ykc_-76W9LsuiwwFu1-ydi5bhri2CSCWg",
+                    "isDefault": false,
+                    "flathash": "ffffc3c3e7c38181"
+                }
+            },
+            "profileInfos": {
+                "PROFILE": {
+                    "userTypes": [
+                        "GOOGLE_USER"
+                    ]
+                }
+            },
+            "inAppReachability": {},
+            "names": {},
+            "extendedData": {
+                "dynamiteData": {
+                    "dndState": null,
+                    "entityType": "PERSON",
+                    "customerId": "",
+                    "presence": null
+                },
+                "gplusData": {
+                    "isEntrepriseUser": false,
+                    "contentRestriction": ""
+                }
+            },
+            "sourceIds": {
+                "PROFILE": {
+                    "lastUpdated": "2024/07/19 02:33:01 (UTC)"
+                }
+            },
+            "coverPhotos": {
+                "PROFILE": {
+                    "url": "https://lh3.googleusercontent.com/c5dqxl-2uHZ82ah9p7yxrVF1ZssrJNSV_15Nu0TUZwzCWqmtoLxCUJgEzLGtxsrJ6-v6R6rKU_-FYm881TTiMCJ_",
+                    "isDefault": true,
+                    "flathash": null
+                }
+            },
+            "personId": "115542426133698026792",
+            "emails": {
+                "PROFILE": {
+                    "value": "terrencedescartes@gmail.com"
+                }
+            }
+        },
+        "play_games": null,
+        "maps": {
+            "photos": [],
+            "reviews": [],
+            "stats": {}
+        },
+        "calendar": {
+            "details": {
+                "id": "terrencedescartes@gmail.com",
+                "summary": "terrencedescartes@gmail.com",
+                "time_zone": "America/Los_Angeles",
+                "conference_properties": {
+                    "allowed_conference_solution_types": [
+                        "hangoutsMeet"
+                    ]
+                }
+            },
+            "events": {
+                "access_role": "reader",
+                "summary": "terrencedescartes@gmail.com",
+                "time_zone": "America/Los_Angeles",
+                "default_reminders": [],
+                "items": [
+                    {
+                        "start": {
+                            "time_zone": "America/Los_Angeles",
+                            "date_time": "2024/08/21 15:00:00 (UTC)"
+                        },
+                        "summary": "Drop off top secret information",
+                        "id": "7vo7l9ji96384ahtfrjmublpg8",
+                        "sequence": 0,
+                        "html_link": "https://www.google.com/calendar/event?eid=N3ZvN2w5amk5NjM4NGFodGZyam11YmxwZzggdGVycmVuY2VkZXNjYXJ0ZXNAbQ",
+                        "guest_can_invite_others": null,
+                        "event_type": "default",
+                        "visibility": null,
+                        "creator": {
+                            "self": true,
+                            "email": "terrencedescartes@gmail.com",
+                            "display_name": null
+                        },
+                        "reminders": {
+                            "use_default": true,
+                            "overrides": []
+                        },
+                        "original_start_time": {
+                            "time_zone": "",
+                            "date_time": null
+                        },
+                        "status": "confirmed",
+                        "description": null,
+                        "organizer": {
+                            "self": true,
+                            "email": "terrencedescartes@gmail.com",
+                            "display_name": null
+                        },
+                        "recurring_event_id": null,
+                        "location": null,
+                        "end": {
+                            "time_zone": "America/Los_Angeles",
+                            "date_time": "2024/08/21 16:00:00 (UTC)"
+                        },
+                        "ical_uid": "7vo7l9ji96384ahtfrjmublpg8@google.com",
+                        "created": "2024/07/19 03:44:02 (UTC)",
+                        "updated": "2024/07/19 03:44:02 (UTC)"
+                    },
+                    {
+                        "start": {
+                            "time_zone": null,
+                            "date_time": null
+                        },
+                        "summary": "SUMMER TRIP!!!!",
+                        "id": "171ch68blbtvh4hm4ot2i8ruun",
+                        "sequence": 0,
+                        "html_link": "https://www.google.com/calendar/event?eid=MTcxY2g2OGJsYnR2aDRobTRvdDJpOHJ1dW4gdGVycmVuY2VkZXNjYXJ0ZXNAbQ",
+                        "guest_can_invite_others": null,
+                        "event_type": "default",
+                        "visibility": null,
+                        "creator": {
+                            "self": true,
+                            "email": "terrencedescartes@gmail.com",
+                            "display_name": null
+                        },
+                        "reminders": {
+                            "use_default": false,
+                            "overrides": []
+                        },
+                        "original_start_time": {
+                            "time_zone": "",
+                            "date_time": null
+                        },
+                        "status": "confirmed",
+                        "description": "flag part 2/2: th3y_m3an_publ1c_9f1b2314}",
+                        "organizer": {
+                            "self": true,
+                            "email": "terrencedescartes@gmail.com",
+                            "display_name": null
+                        },
+                        "recurring_event_id": null,
+                        "location": null,
+                        "end": {
+                            "time_zone": null,
+                            "date_time": null
+                        },
+                        "ical_uid": "171ch68blbtvh4hm4ot2i8ruun@google.com",
+                        "created": "2024/07/19 03:49:07 (UTC)",
+                        "updated": "2024/07/19 03:49:17 (UTC)"
+                    },
+                    {
+                        "start": {
+                            "time_zone": null,
+                            "date_time": null
+                        },
+                        "summary": "NYC trip",
+                        "id": "6v0l3ksg2vmuj0mtk7cc0k7vvo",
+                        "sequence": 0,
+                        "html_link": "https://www.google.com/calendar/event?eid=NnYwbDNrc2cydm11ajBtdGs3Y2Mwazd2dm8gdGVycmVuY2VkZXNjYXJ0ZXNAbQ",
+                        "guest_can_invite_others": null,
+                        "event_type": "default",
+                        "visibility": null,
+                        "creator": {
+                            "self": true,
+                            "email": "terrencedescartes@gmail.com",
+                            "display_name": null
+                        },
+                        "reminders": {
+                            "use_default": false,
+                            "overrides": []
+                        },
+                        "original_start_time": {
+                            "time_zone": "",
+                            "date_time": null
+                        },
+                        "status": "confirmed",
+                        "description": "2139 miles away from my hometown... so far away",
+                        "organizer": {
+                            "self": true,
+                            "email": "terrencedescartes@gmail.com",
+                            "display_name": null
+                        },
+                        "recurring_event_id": null,
+                        "location": null,
+                        "end": {
+                            "time_zone": null,
+                            "date_time": null
+                        },
+                        "ical_uid": "6v0l3ksg2vmuj0mtk7cc0k7vvo@google.com",
+                        "created": "2024/07/19 04:06:12 (UTC)",
+                        "updated": "2024/07/19 04:06:31 (UTC)"
+                    }
+                ],
+                "next_page_token": null,
+                "updated": "2024/07/20 14:40:42 (UTC)"
+            }
+        }
+    }
+}
