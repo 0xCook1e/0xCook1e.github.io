@@ -14,7 +14,7 @@ Description: *This month, there was an incident, and CyberMaterial is fast in pu
 
 *Let's see if you caught that.*
 
-So I searched for Cybermaterials newsletter and found a newsletter on linkedin. After going through a few of the newsletter I found which had the flagand the article about the Netflix Leak.
+So I searched for Cybermaterials newsletter and found a newsletter on linkedin. After going through a few of the newsletter I found which had the flag and the article about the Netflix Leak.
 
 ![news](/assets/posts/hackhavoc/osint1.png)
 
@@ -51,7 +51,9 @@ Description: *You’re up against one of the most notorious APT groups—Lazarus
 
 *Can you unravel their devious plans and find the flag before they hit their next target? Put on your detective hat, crack the code, and save the day! The world’s fate might just hang in the balance. 🕵️‍♂️🔓*
 
-So I Searched about cybermaterial and they had a website where they posted articles. I searched in Threat actors for The lazarus group and found an article. After going through the article there was a link hidden to a pastebin.
+So I Searched about cybermaterial and they had a website where they posted articles. I searched in Threat actors for The lazarus group and found an article. After going through the [article](https://cybermaterial.com/andariel-lazarus-group-threat-actor/) there was a link hidden to a pastebin.
+
+![lazarus](/assets/posts/hackhavoc/osint3.png)
 
 The pastebin had some suspiciously scattered Hex values in the content. I tried to decode them and got the flag.
 
@@ -71,9 +73,15 @@ So I searched for the phone number and found it was a Las Vegas number.
 
 I analyzed the given image and it was a street view image. and a visible icon was seen. I searched the icon and it apparently meant a museum.
 
+![museum](/assets/posts/hackhavoc/osint4.png)
+
+![museum2](/assets/posts/hackhavoc/osint4.2.png)
+
 So I searched for museums in Las Vegas and found the musuem.
 
 `The Mob Museum`
+
+![museum3](/assets/posts/hackhavoc/osint4.3.png){: w="700"}
 
 Which was also the flag.
 
@@ -90,6 +98,8 @@ At this stage i was aware of the social media accounts of cybermaterial. LinkedI
 Instagram and Youtube seemed highly probable considering the description. I checked the youtube channel and I was first looking at the wrong spot as I misread the question. I was looking for flag inside the video. Then I realized it might be hinting at the text content of the video 'post' which is the description.
 
 After going through a few videos I found the flag in description hidden in '#tags'
+
+![osint5](/assets/posts/hackhavoc/osint5.png)
 
 [Video Link](https://www.youtube.com/watch?v=iM4vtqkhmIo)
 

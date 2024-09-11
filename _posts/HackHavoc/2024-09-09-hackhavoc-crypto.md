@@ -16,6 +16,8 @@ NATO's Flaghoist communication was used here. I used the [Navy Signals Code](htt
 
 Do Check out this [NATO Codes](https://www.nato.int/nato_static_fl2014/assets/pdf/pdf_2018_01/20180111_nato-alphabet-sign-signal.pdf) for viewing the other methods of signals and codes used by NATO. A few re-appear in other CTF's as well.
 
+> Flag: `CM{nato_signals}`
+
 ## I can't see it
 
 Description: *In the land of secrets, where the ordinary becomes extraordinary, there’s a riddle that loves to play hide-and-seek. It's hiding in plain sight, yet elusive to the eye. Venture into the realm where invisible ink holds the clues, and remember*
