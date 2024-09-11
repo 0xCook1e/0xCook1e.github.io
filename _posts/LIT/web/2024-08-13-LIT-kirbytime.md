@@ -94,4 +94,4 @@ Tested the password we got once and submitted the flag.
 
 ---
 
-[back to index](https://p-pratik.github.io/posts/LIT-Index/)
+[back to index](/posts/LIT-Index/)

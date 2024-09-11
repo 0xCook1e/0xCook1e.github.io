@@ -150,4 +150,4 @@ What python was doing is producing the token with url-safe base64 encoding and j
 
 ---
 
-[back to index](https://p-pratik.github.io/posts/LIT-Index/)
+[back to index](/posts/LIT-Index/)

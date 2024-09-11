@@ -44,4 +44,4 @@ Run the original js code with console.log() to get the flag. ( or just remove th
 
 ---
 
-[back to index](https://p-pratik.github.io/posts/LIT-Index/)
+[back to index](/posts/LIT-Index/)
