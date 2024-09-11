@@ -144,5 +144,8 @@ print(f"Unshuffled string: {unshuffled_string}")
 # Unshuffled string: awawawawaawa_0oooosHii11i_J3lly!
 ```
 
-
 > Flag: `CM{awawawawaawa_0oooosHii11i_J3lly!}`
+
+---
+
+[back to index](/posts/hackhavoc-index/)

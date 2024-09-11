@@ -143,3 +143,7 @@ From this information I made my payload and sent the request through burp, and g
 ![inj](/assets/posts/hackhavoc/web5.png)
 
 > Flag: `CM{c0mMAnd_INjEc7iON_f7w}`
+
+---
+
+[back to index](/posts/hackhavoc-index/)

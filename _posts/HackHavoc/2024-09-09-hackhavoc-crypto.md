@@ -77,3 +77,7 @@ It was a simple XOR encryption. Used cyberchef to bruteforce the key.
 [cyberchef recipe](https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')XOR_Brute_Force(1,100,0,'Standard',false,true,false,'')&input=Njg2NjUwN2Y0MzE4MWUxODc0NTMxYjc5NzQxZjU5MTg3NDQ4NzkxZjUxNzI1Ng)
 
 `Key = 2b: CM{Th353_x0R_4r3_cR4zY}`
+
+---
+
+[back to index](/posts/hackhavoc-index/)

@@ -11,3 +11,7 @@ image: /assets/posts/hackhavoc/banner.png
 
 Title | Link
 --- | ---
+Web | [Link](/posts/hackhavoc-web/)
+Crypto | [Link](/posts/hackhavoc-crypto/)
+OSINT | [Link](/posts/hackhavoc-osint/)
+Rev | [Link](/posts/hackhavoc-rev/)

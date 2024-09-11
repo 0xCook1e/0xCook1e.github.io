@@ -57,7 +57,7 @@ The pastebin had some suspiciously scattered Hex values in the content. I tried 
 
 [pastebin link](https://pastebin.com/QUwg950y)
 
-Flag: `CM{4pT_Gr0uP5_L4z4Ru5}`
+> Flag: `CM{4pT_Gr0uP5_L4z4Ru5}`
 
 ## Catch Me !!
 
@@ -93,4 +93,8 @@ After going through a few videos I found the flag in description hidden in '#tag
 
 [Video Link](https://www.youtube.com/watch?v=iM4vtqkhmIo)
 
-Flag: `CM{SuB5cR1b3_t0_0ur_Y0u7ub3_Ch4nN3L}`
+> Flag: `CM{SuB5cR1b3_t0_0ur_Y0u7ub3_Ch4nN3L}`
+
+---
+
+[back to index](/posts/hackhavoc-index/)
