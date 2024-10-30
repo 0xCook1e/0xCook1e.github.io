@@ -11,4 +11,3 @@ image: /assets/posts/Spooky/banner.png
 
 Title | Link
 --- | ---
-Steg | [Link]()
