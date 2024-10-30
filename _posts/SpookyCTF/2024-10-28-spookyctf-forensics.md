@@ -6,6 +6,8 @@ tags: [spookyctf, ctf]
 description: Forensiscs Challenge Write-up
 ---
 
+WORK IN PROGRESS...
+
 ## wont-somebody-think-of-the-children
 
 `medium`-`554 points`-`109 solves`
@@ -13,7 +15,6 @@ description: Forensiscs Challenge Write-up
 Description: *If Loab is back, we might need the council to help us out. The problem is that Anna sent Maya looking for them but she still hasn't come back. This is her last known location... Maybe you can help find her.*
 
 *I'd go, but I really don't want to be around those spooky ghost orphans.*
-
 
 ## haunted-server
 

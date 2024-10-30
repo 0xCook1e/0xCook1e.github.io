@@ -12,5 +12,15 @@ image: /assets/posts/Spooky/banner.png
 Title | Link
 --- | ---
 Steg | [Link](/posts/spookyctf-steg/)
+
+Work in Progress...
+
+-- | --
 Forensics | [Link](/posts/spookyctf-forensics/)
 Misc | [Link](/posts/spookyctf-misc/)
+
+## Overview
+
+Pretty fun CTF. I enjoyed the challenges. Also memory forensics = fun.
+
+![stats](/assets/posts/Spooky/stats.png)
