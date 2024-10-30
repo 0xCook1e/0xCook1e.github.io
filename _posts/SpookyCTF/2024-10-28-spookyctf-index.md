@@ -11,3 +11,6 @@ image: /assets/posts/Spooky/banner.png
 
 Title | Link
 --- | ---
+Steg | [Link](/posts/spookyctf-steg/)
+Forensics | [Link](/posts/spookyctf-forensics/)
+Misc | [Link](/posts/spookyctf-misc/)
