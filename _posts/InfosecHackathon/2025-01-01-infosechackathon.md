@@ -17,7 +17,7 @@ I search PNG header and head to wikipedia page
 
 ![image.png](/assets/posts/infosec/image.png)
 
-Check out the full article here - [https://en.wikipedia.org/wiki/PNG](/assets/posts/infosec/https://en.wikipedia.org/wiki/PNG)
+Check out the full article here - [https://en.wikipedia.org/wiki/PNG](https://en.wikipedia.org/wiki/PNG)
 
 Using this structure i fix the broken PNG making use of a hex editor.
 
@@ -94,7 +94,7 @@ flag is encoded in base64 after decoding we get the flag
 
 Description - Fred had just completed his project when he decided to run a file sent by a friend, promising to speed up his system and clean unnecessary files. Moments after running it, chaos struck—his project files, representing weeks of hard work, were corrupted, and a ransom note appeared demanding payment to recover them. Can you help Fred outsmart the attackers and recover his data from this cyber fraud?
 
-Mirror: [https://mirror.eng.run/chall.raw](/assets/posts/infosec/https://mirror.eng.run/chall.raw)
+Mirror: [https://mirror.eng.run/chall.raw](https://mirror.eng.run/chall.raw)
 
 Memory forensics, one of my favorite type of forensics challs.
 
@@ -106,7 +106,7 @@ Now, lets take a moment to analyze the description. We know
 So, Our goal is to see if we can get hands on the file being sent by the friend so that we can potentially analyze it.
 
 I’ll be using Volatility 3 for doing the analysis. you can refer to this for the full commands 
-[https://blog.onfvp.com/post/volatility-cheatsheet/](/assets/posts/infosec/https://blog.onfvp.com/post/volatility-cheatsheet/) and the original volatility 3 github repository for the installation 
+[https://blog.onfvp.com/post/volatility-cheatsheet/](https://blog.onfvp.com/post/volatility-cheatsheet/) and the original volatility 3 github repository for the installation 
 
 #### Volatility 3
 
@@ -685,10 +685,10 @@ We are given the source code of the website so I go on to examine it, info I gat
 
 - 2 web instances are hosted.
 - 1 is on port 1234 and 1 is on port 80
-- [admin.py](/assets/posts/infosec/http://admin.py) is running on port 80 and is responsible for showing the flag. but we do not have access to it.
+- [admin.py](http://admin.py) is running on port 80 and is responsible for showing the flag. but we do not have access to it.
 - Normal website running on the port 1234 is what we have access to.
 
-So to access the website hosted on port 80 we can simply visit [`localhost:80`](/assets/posts/infosec/http://localhost:80) using our image viewing website which we have access to, but there’s a catch.
+So to access the website hosted on port 80 we can simply visit [`localhost:80`](http://localhost:80) using our image viewing website which we have access to, but there’s a catch.
 
 All private Ips are filtered and there is almost no way to bypass that directly.
 
@@ -702,13 +702,13 @@ This is how DNS rebinding works
 
 ![image.png](/assets/posts/infosec/image%2016.png)
 
-[https://unit42.paloaltonetworks.com/dns-rebinding/](/assets/posts/infosec/https://unit42.paloaltonetworks.com/dns-rebinding/) for more details view their article.
+[https://unit42.paloaltonetworks.com/dns-rebinding/](https://unit42.paloaltonetworks.com/dns-rebinding/) for more details view their article.
 
 In simple terms, we set up a malicious DNS resolver. Then, we pass a URL that isn't filtered by the system, allowing us to bypass the filtering mechanism. Once the URL bypasses the filter, the application queries the DNS resolver, which responds with an address of our choosing, effectively redirecting the application to the destination we want to visit.
 
 ![Screenshot 2025-01-11 232548.png](/assets/posts/infosec/image 33.png)
 
-Using this free tool [https://lock.cmpxchg8b.com/rebinder.html](/assets/posts/infosec/https://lock.cmpxchg8b.com/rebinder.html) we can perform DNS rebinding attack much more easily. than setting up our own. This website switches between the 2 addresses so it might take a few tries to get to our desired ip which is `127.0.0.1` 
+Using this free tool [https://lock.cmpxchg8b.com/rebinder.html](https://lock.cmpxchg8b.com/rebinder.html) we can perform DNS rebinding attack much more easily. than setting up our own. This website switches between the 2 addresses so it might take a few tries to get to our desired ip which is `127.0.0.1` 
 
 ![Screenshot 2025-01-11 232447.png](/assets/posts/infosec/image 32.png)
 
