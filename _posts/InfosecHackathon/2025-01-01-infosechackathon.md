@@ -28,7 +28,7 @@ After fixing the image. mainly the header and the footer, which were broken. we 
 >You can also make use of a small PNG file (valid) and compare it to the broken one. 
 {: .prompt-tip}
 
-![Screenshot 2025-01-11 110744.png](/assets/posts/infosec/image 29.png)
+![Screenshot 2025-01-11 110744.png](/assets/posts/infosec/image%2029.png)
 
 ### 2. Clip It Stash It - Medium
 
@@ -84,7 +84,7 @@ I quickly find out that the `wal` stands for Write-Ahead Log file which stores c
 
 I dump out the whole folder and view the sqlite file. in the .sqlite file i find the partial flag. I try to analyze the `.sqlite-wal` file but i am unable to. So i just do strings and grep on it with the partial flag we had and we get the flag, 
 
-![Screenshot 2025-01-11 224420.png](/assets/posts/infosec/image 31.png)
+![Screenshot 2025-01-11 224420.png](/assets/posts/infosec/image%2031.png)
 
 flag is encoded in base64 after decoding we get the flag
 
@@ -424,7 +424,7 @@ if __name__ == "__main__":
 
 Using this string and trying it on the remote I get the flag.
 
-![Screenshot 2025-01-12 085750.png](/assets/posts/infosec/image 35.png)
+![Screenshot 2025-01-12 085750.png](/assets/posts/infosec/image%2035.png)
 
 ### 3. Reverse 3 - Hard
 
@@ -447,7 +447,7 @@ At first i did some manually and found that the password was just a hardcoded st
 
 after making a successful script which did all that . i ran into a problem… it was giving corrrect for few and wrong for others 
 
-![Screenshot 2025-01-12 105639.png](/assets/posts/infosec/image 36.png)
+![Screenshot 2025-01-12 105639.png](/assets/posts/infosec/image%2036.png)
 
 I thought at first there was something wrong with the instance or something. but then I manually analyzed the failed binary password.
 
@@ -669,7 +669,7 @@ print(f"Pin: {original_value}")
 
 The pin of the admin is now acquired. time to form the link using the parameters and visit on the remote instance. 
 
-![Screenshot 2025-01-12 083708.png](/assets/posts/infosec/image 34.png)
+![Screenshot 2025-01-12 083708.png](/assets/posts/infosec/image%2034.png)
 
 And there we go. we have found the flag. 
 
@@ -685,10 +685,10 @@ We are given the source code of the website so I go on to examine it, info I gat
 
 - 2 web instances are hosted.
 - 1 is on port 1234 and 1 is on port 80
-- [admin.py](http://admin.py) is running on port 80 and is responsible for showing the flag. but we do not have access to it.
+- `admin.py` is running on port 80 and is responsible for showing the flag. but we do not have access to it.
 - Normal website running on the port 1234 is what we have access to.
 
-So to access the website hosted on port 80 we can simply visit [`localhost:80`](http://localhost:80) using our image viewing website which we have access to, but there’s a catch.
+So to access the website hosted on port 80 we can simply visit `localhost:80` using our image viewing website which we have access to, but there’s a catch.
 
 All private Ips are filtered and there is almost no way to bypass that directly.
 
@@ -698,7 +698,7 @@ There is also a code which disallows redirection so simple redirection attacks a
 
 This is where DNS rebinding comes in play.
 
-This is how DNS rebinding works 
+This is how DNS rebinding works
 
 ![image.png](/assets/posts/infosec/image%2016.png)
 
@@ -706,13 +706,13 @@ This is how DNS rebinding works
 
 In simple terms, we set up a malicious DNS resolver. Then, we pass a URL that isn't filtered by the system, allowing us to bypass the filtering mechanism. Once the URL bypasses the filter, the application queries the DNS resolver, which responds with an address of our choosing, effectively redirecting the application to the destination we want to visit.
 
-![Screenshot 2025-01-11 232548.png](/assets/posts/infosec/image 33.png)
+![Screenshot 2025-01-11 232548.png](/assets/posts/infosec/image%2033.png)
 
-Using this free tool [https://lock.cmpxchg8b.com/rebinder.html](https://lock.cmpxchg8b.com/rebinder.html) we can perform DNS rebinding attack much more easily. than setting up our own. This website switches between the 2 addresses so it might take a few tries to get to our desired ip which is `127.0.0.1` 
+Using this free tool [https://lock.cmpxchg8b.com/rebinder.html](https://lock.cmpxchg8b.com/rebinder.html) we can perform DNS rebinding attack much more easily. than setting up our own. This website switches between the 2 addresses so it might take a few tries to get to our desired ip which is `127.0.0.1`
 
-![Screenshot 2025-01-11 232447.png](/assets/posts/infosec/image 32.png)
+![website](/assets/posts/infosec/image%2032.png)
 
-And there we go. we get our flag. 
+And there we go. we get our flag.
 
 ## Network
 
@@ -792,7 +792,7 @@ I then re-analyzed the pcap and noticed my mistake. there was another stray ICMP
 
 I then used another tshark command making sure i only used data from `ICMP` only.
 
-![Screenshot 2025-01-11 193150.png](/assets/posts/infosec/image 30.png)
+![Screenshot 2025-01-11 193150.png](/assets/posts/infosec/image%2030.png)
 
 And the challenge was solved 
 
