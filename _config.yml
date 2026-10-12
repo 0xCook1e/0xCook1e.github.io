@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://cookie.is-a.dev"
 
 github:
-  username: P-Pratik # change to your github username
+  username: 0xCook1e # change to your github username
 
 twitter:
   username: RookieCookieFX # change to your twitter username
@@ -35,11 +35,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Cookie 
-  email: example@domain.com # change to your email address
+  email: cookiectf@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/RookieCookieFX # change to your twitter homepage
-    - https://github.com/P-Pratik # change to your github homepage
+    - https://github.com/0xCook1e # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
